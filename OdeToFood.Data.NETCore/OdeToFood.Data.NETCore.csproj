@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,10 +14,13 @@
     </PackageReference>
   </ItemGroup>
 
- 
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet"
+                           Version="2.0.3" />
+  </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OdeToFood.Core\OdeToFood.Core.csproj" />
+    <ProjectReference Include="..\OdeToFood.Core.NETCore\OdeToFood.Core.NETCore.csproj" />
   </ItemGroup>
 
 </Project>

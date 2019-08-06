@@ -6,7 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
 using OdeToFood.Core;
+using OdeToFood.Core.NETCore;
 using OdeToFood.Data;
+using OdeToFood.Data.NETCore;
 
 namespace OdeToFood.Pages.Restaurants
 {
