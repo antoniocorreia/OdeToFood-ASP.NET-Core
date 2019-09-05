@@ -63,5 +63,10 @@ namespace OdeToFood.Data.NETCore
             }
             return restaurant;
         }
+
+        public int GetCountOfRestaurants()
+        {
+            return restaurants.Count();
+        }
     }
 }

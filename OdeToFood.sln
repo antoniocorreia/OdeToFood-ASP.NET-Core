@@ -5,13 +5,9 @@ VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood", "OdeToFood\OdeToFood.csproj", "{C5600FDE-0453-4D4C-8B80-81FACB7F2D99}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Core", "OdeToFood.Core\OdeToFood.Core.csproj", "{F32F8959-EAD9-4BC6-9706-676A97B48BE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Core.NETCore", "OdeToFood.Core.NETCore\OdeToFood.Core.NETCore.csproj", "{98F22FF5-6F7F-4E2B-B215-01C2D1CD8C9B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Data", "OdeToFood.Data\OdeToFood.Data.csproj", "{1AC425D7-52F2-4454-BDD4-E240E68163A3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Core.NETCore", "OdeToFood.Core.NETCore\OdeToFood.Core.NETCore.csproj", "{98F22FF5-6F7F-4E2B-B215-01C2D1CD8C9B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Data.NETCore", "OdeToFood.Data.NETCore\OdeToFood.Data.NETCore.csproj", "{BA81EF31-7009-4917-BAE1-2003DFCB26D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Data.NETCore", "OdeToFood.Data.NETCore\OdeToFood.Data.NETCore.csproj", "{BA81EF31-7009-4917-BAE1-2003DFCB26D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +19,6 @@ Global
 		{C5600FDE-0453-4D4C-8B80-81FACB7F2D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5600FDE-0453-4D4C-8B80-81FACB7F2D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5600FDE-0453-4D4C-8B80-81FACB7F2D99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F32F8959-EAD9-4BC6-9706-676A97B48BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F32F8959-EAD9-4BC6-9706-676A97B48BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F32F8959-EAD9-4BC6-9706-676A97B48BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F32F8959-EAD9-4BC6-9706-676A97B48BE4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1AC425D7-52F2-4454-BDD4-E240E68163A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1AC425D7-52F2-4454-BDD4-E240E68163A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1AC425D7-52F2-4454-BDD4-E240E68163A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1AC425D7-52F2-4454-BDD4-E240E68163A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{98F22FF5-6F7F-4E2B-B215-01C2D1CD8C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98F22FF5-6F7F-4E2B-B215-01C2D1CD8C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F22FF5-6F7F-4E2B-B215-01C2D1CD8C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
