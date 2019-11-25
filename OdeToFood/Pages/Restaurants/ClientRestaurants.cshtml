@@ -3,7 +3,17 @@
 @{
 }
 
-@section Scripts{ 
+@section Scripts{
+    <environment include="Development">
+        <script src="~\node_modules\datatables.net\js\jquery.dataTables.js"></script>
+        <script src="~\node_modules\datatables.net-dt\js\dataTables.dataTables.js"></script>
+        <link href="~\node_modules\datatables.net-dt\css\jquery.dataTables.css" rel="stylesheet" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.18/datatables.min.css" />
+        <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.18/datatables.min.js"></script>
+    </environment>
+   
     <script>
         $(function () {
             $.ajax("/api/restaurants/",
